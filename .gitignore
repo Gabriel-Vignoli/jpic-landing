@@ -1,0 +1,5 @@
+# rascunho original da OAK (exportado do editor), fica só local
+assets/original-lp.html
+node_modules/
+.DS_Store
+Thumbs.db
