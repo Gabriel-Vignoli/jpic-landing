@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JPIC Importados · Grupo VIP de ofertas no WhatsApp</title>
+  <meta name="description" content="Robô aspirador, patinete e bike elétrica com preço de grupo. Entre no grupo VIP da JPIC Importados no WhatsApp: produto original, nota fiscal e atendimento de gente de verdade.">
+  <meta name="theme-color" content="#12110F">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=Cinzel:wght@600;700&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+  { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  } }
+  </script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.87 9.87 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.24 8.24 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.46-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.23-.73-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+</svg>
+
+<div class="topbar" role="note">
+  <div class="topbar__track">
+    <span>Envio para todo o Brasil</span><span aria-hidden="true">·</span>
+    <span>Nota fiscal em todas as compras</span><span aria-hidden="true">·</span>
+    <span>Parcelamos em até <mark class="ph">[12x]</mark></span>
+  </div>
+</div>
+
+<header class="nav" data-theme="dark">
+  <div class="nav__inner">
+    <a class="logo" href="#top" aria-label="JP&amp;C Importados, voltar ao topo">
+      <span class="logo__mark">JP<em>&amp;</em>C</span>
+      <span class="logo__sub">Importados</span>
+    </a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#produtos">Produtos</a>
+      <a href="#ofertas">Ofertas</a>
+      <a href="#como">Como funciona</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="btn btn--go btn--sm" href="#entrar" data-cta="grupo">
+      <svg aria-hidden="true"><use href="#i-wa"/></svg>Entrar no grupo
+    </a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- TOPO + CENA 3D COM ROLAGEM -->
+<section class="stage" id="top" aria-labelledby="hero-title">
+  <div class="stage__sticky">
+    <canvas class="stage__canvas" aria-hidden="true"></canvas>
+    <div class="stage__glow" aria-hidden="true"></div>
+
+    <div class="hero" data-step="0">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Grupo VIP de ofertas · WhatsApp</p>
+      <h1 id="hero-title" class="hero__title">
+        <span class="line"><span>Preço de grupo</span></span>
+        <span class="line"><span>em robô aspirador</span></span>
+        <span class="line"><span>e patinete elétrico.</span></span>
+      </h1>
+      <p class="hero__lead">Entre no grupo VIP da JPIC Importados e receba ofertas que não aparecem no Mercado Livre nem na Shopee. Produto original, nota fiscal e gente de verdade para te atender.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--go btn--lg magnet" href="#entrar" data-cta="grupo">
+          <svg aria-hidden="true"><use href="#i-wa"/></svg>Entrar no grupo VIP grátis
+        </a>
+        <a class="btn btn--ghost-dark btn--lg" href="#vendedor" data-cta="vendedor">Falar com um vendedor</a>
+      </div>
+      <p class="hero__fine">Grátis. Sem spam. Você sai do grupo quando quiser.</p>
+    </div>
+
+    <ol class="steps-3d" aria-label="Como o robô aspirador limpa a casa">
+      <li class="step3d" data-step="1">
+        <span class="step3d__n">01</span>
+        <h2 class="step3d__t">Mapeia a casa</h2>
+        <p>O sensor no topo gira o tempo todo e desenha a planta de cada cômodo. Nada de bater em parede à toa.</p>
+      </li>
+      <li class="step3d" data-step="2">
+        <span class="step3d__n">02</span>
+        <h2 class="step3d__t">Aspira e passa pano</h2>
+        <p>Faixa por faixa, sem deixar canto para trás. Casa limpa todo dia, inclusive com pet.</p>
+      </li>
+      <li class="step3d" data-step="3">
+        <span class="step3d__n">03</span>
+        <h2 class="step3d__t">Volta sozinho para a base</h2>
+        <p>Terminou, ele estaciona e recarrega. Você só chega em casa e encontra o chão limpo.</p>
+      </li>
+    </ol>
+
+    <div class="stage__progress" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+    <a class="stage__scroll" href="#produtos" aria-label="Ir para os produtos">
+      <span>Role para ver o robô trabalhar</span>
+    </a>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section class="section" id="produtos" aria-labelledby="produtos-title">
+  <div class="wrap">
+    <div class="head head--split">
+      <h2 id="produtos-title" class="h2 reveal-lines">Um grupo só, três linhas de produto.</h2>
+      <p class="lead">Ofertas de robôs, patinetes e bikes elétricas no mesmo lugar. Entrou, já começa a receber.</p>
+    </div>
+
+    <div class="cats">
+      <a class="cat cat--feature" href="#entrar" data-cta="grupo">
+        <div class="cat__media">
+          <img src="assets/robo-aspirador-branco.jpg" alt="Robô aspirador Xiaomi branco, com sensor no topo" width="1080" height="1080" loading="lazy">
+        </div>
+        <div class="cat__body">
+          <span class="cat__n">01</span>
+          <h3 class="cat__name">Robôs aspiradores</h3>
+          <p>Aspira e passa pano sozinho. Mais tempo livre e casa limpa todo dia, inclusive com pet.</p>
+          <p class="cat__price">A partir de <strong class="ph">R$ [1.299]</strong></p>
+          <span class="cat__cta">Ver ofertas no grupo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+      <a class="cat" href="#entrar" data-cta="grupo">
+        <div class="cat__media cat__media--scooter">
+          <img src="assets/patinete-foston-fs-s09.jpg" alt="Patinete elétrico Foston Fs S09" width="1080" height="1080" loading="lazy">
+        </div>
+        <div class="cat__body">
+          <span class="cat__n">02</span>
+          <h3 class="cat__name">Patinetes elétricos</h3>
+          <p>Chegue no trabalho ou na faculdade sem trânsito e sem gastar com combustível.</p>
+          <p class="cat__price">A partir de <strong class="ph">R$ [2.099]</strong></p>
+          <span class="cat__cta">Ver ofertas no grupo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+      <a class="cat" href="#entrar" data-cta="grupo">
+        <div class="cat__media cat__media--empty"><span class="ph-box">[Foto da bike elétrica]</span></div>
+        <div class="cat__body">
+          <span class="cat__n">03</span>
+          <h3 class="cat__name">Bikes elétricas</h3>
+          <p>Pedal assistido para ir mais longe com menos esforço. <mark class="ph">[Confirmar se entra agora]</mark></p>
+          <p class="cat__price">A partir de <strong class="ph">R$ [x]</strong></p>
+          <span class="cat__cta">Ver ofertas no grupo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTAS -->
+<section class="section section--surface" id="ofertas" aria-labelledby="ofertas-title">
+  <div class="wrap">
+    <div class="head head--split">
+      <h2 id="ofertas-title" class="h2 reveal-lines">Rodando no grupo agora.</h2>
+      <p class="lead">Uma amostra do que os membros recebem. Preço e estoque mudam rápido, e as melhores condições saem primeiro no grupo.</p>
+    </div>
+
+    <ul class="offers" role="list">
+      <li class="offer">
+        <div class="offer__media"><img src="assets/robo-aspirador-branco.jpg" alt="Robô aspirador Xiaomi branco" width="1080" height="1080" loading="lazy"><span class="tag">Estoque limitado</span></div>
+        <p class="offer__cat">Robô aspirador</p>
+        <h3 class="offer__name">Xiaomi Robot Vacuum <span class="ph">[modelo]</span>, branco</h3>
+        <div class="price">
+          <s class="price__old">De R$ <span class="ph">[x]</span></s>
+          <span class="price__now">R$ <span class="ph">[y]</span></span>
+          <span class="price__inst">ou <span class="ph">[12x]</span> de R$ <span class="ph">[z]</span></span>
+        </div>
+        <a class="btn btn--go btn--block" href="#entrar" data-cta="oferta"><svg aria-hidden="true"><use href="#i-wa"/></svg>Quero essa oferta</a>
+      </li>
+      <li class="offer">
+        <div class="offer__media offer__media--empty"><span class="ph-box">[Foto do robô preto]</span><span class="tag">Estoque limitado</span></div>
+        <p class="offer__cat">Robô aspirador</p>
+        <h3 class="offer__name">Xiaomi Robot Vacuum <span class="ph">[modelo]</span>, preto</h3>
+        <div class="price">
+          <s class="price__old">De R$ <span class="ph">[x]</span></s>
+          <span class="price__now">R$ <span class="ph">[y]</span></span>
+          <span class="price__inst">ou <span class="ph">[12x]</span> de R$ <span class="ph">[z]</span></span>
+        </div>
+        <a class="btn btn--go btn--block" href="#entrar" data-cta="oferta"><svg aria-hidden="true"><use href="#i-wa"/></svg>Quero essa oferta</a>
+      </li>
+      <li class="offer">
+        <div class="offer__media offer__media--scooter"><img src="assets/patinete-foston-fs-s09.jpg" alt="Patinete elétrico Foston Fs S09" width="1080" height="1080" loading="lazy"><span class="tag">Estoque limitado</span></div>
+        <p class="offer__cat">Patinete elétrico</p>
+        <h3 class="offer__name">Patinete Foston Fs S09</h3>
+        <div class="price">
+          <s class="price__old">De R$ <span class="ph">[x]</span></s>
+          <span class="price__now">R$ <span class="ph">[y]</span></span>
+          <span class="price__inst">ou <span class="ph">[12x]</span> de R$ <span class="ph">[z]</span></span>
+        </div>
+        <a class="btn btn--go btn--block" href="#entrar" data-cta="oferta"><svg aria-hidden="true"><use href="#i-wa"/></svg>Quero essa oferta</a>
+      </li>
+      <li class="offer">
+        <div class="offer__media offer__media--empty"><span class="ph-box">[Foto da bike elétrica]</span><span class="tag">Estoque limitado</span></div>
+        <p class="offer__cat">Bike elétrica</p>
+        <h3 class="offer__name"><span class="ph">[Modelo da bike elétrica]</span></h3>
+        <div class="price">
+          <s class="price__old">De R$ <span class="ph">[x]</span></s>
+          <span class="price__now">R$ <span class="ph">[y]</span></span>
+          <span class="price__inst">ou <span class="ph">[12x]</span> de R$ <span class="ph">[z]</span></span>
+        </div>
+        <a class="btn btn--go btn--block" href="#entrar" data-cta="oferta"><svg aria-hidden="true"><use href="#i-wa"/></svg>Quero essa oferta</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="section section--dark" id="como" aria-labelledby="como-title">
+  <div class="wrap">
+    <div class="head head--split">
+      <h2 id="como-title" class="h2 reveal-lines">Do grupo até a sua porta.</h2>
+      <p class="lead">Sem cadastro, sem aplicativo novo. Tudo acontece no WhatsApp que você já usa.</p>
+    </div>
+    <div class="flow-box">
+    <div class="flow__rail" aria-hidden="true"><span></span></div>
+    <ol class="flow">
+      <li class="flow__item">
+        <span class="flow__n">1</span>
+        <h3>Entre no grupo</h3>
+        <p>Um toque e você já está dentro, sem cadastro.</p>
+      </li>
+      <li class="flow__item">
+        <span class="flow__n">2</span>
+        <h3>Receba as ofertas</h3>
+        <p>Postamos <span class="ph">[poucas vezes por semana]</span>, só o que vale a pena. Nada de corrente.</p>
+      </li>
+      <li class="flow__item">
+        <span class="flow__n">3</span>
+        <h3>Compre com segurança</h3>
+        <p>Fale com o vendedor no privado ou finalize pelo link da oferta. <span class="ph">[Pix, cartão em até 12x ou link de pagamento]</span></p>
+      </li>
+      <li class="flow__item">
+        <span class="flow__n">4</span>
+        <h3>Receba em casa</h3>
+        <p>Enviamos para todo o Brasil, com nota fiscal e código de rastreio.</p>
+      </li>
+    </ol>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIANÇA -->
+<section class="section" id="empresa" aria-labelledby="empresa-title">
+  <div class="wrap trust">
+    <div class="trust__intro">
+      <h2 id="empresa-title" class="h2 reveal-lines">Preço de grupo, segurança de loja.</h2>
+      <p class="lead">Empresa registrada, endereço físico e atendimento humano. Você sabe de quem está comprando.</p>
+      <figure class="receipt" aria-label="Dados da empresa">
+        <div class="receipt__head">
+          <span class="logo logo--ink"><span class="logo__mark">JP<em>&amp;</em>C</span><span class="logo__sub">Importados</span></span>
+        </div>
+        <dl class="receipt__rows">
+          <div><dt>Razão social</dt><dd>JP&amp;C LTDA</dd></div>
+          <div><dt>CNPJ</dt><dd class="num">66.780.787/0001-60</dd></div>
+          <div><dt>Endereço</dt><dd>Rua Cláudio Zatta, 48, Centro<br>Cafelândia, PR</dd></div>
+          <div><dt>Nota fiscal</dt><dd>Em toda compra</dd></div>
+        </dl>
+      </figure>
+    </div>
+    <ul class="trust__list" role="list">
+      <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><h3>Produto original Xiaomi</h3><p><span class="ph">[Procedência garantida ou revenda autorizada: confirmar o termo correto]</span></p></div></li>
+      <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><h3>Nota fiscal em toda compra</h3><p>Empresa registrada, com CNPJ e endereço.</p></div></li>
+      <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><h3>Garantia de <span class="ph">[x meses]</span></h3><p>E a gente te ajuda se precisar acionar.</p></div></li>
+      <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><h3>Atendimento de verdade</h3><p>Você fala com pessoas, não com robô de marketplace. <span class="ph">[Resposta em até x minutos no horário comercial]</span></p></div></li>
+      <li><svg aria-hidden="true"><use href="#i-check"/></svg><div><h3>Loja no Paraná, envio para o Brasil todo</h3><p>Saindo de Cafelândia, PR.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section class="section section--surface" id="avaliacoes" aria-labelledby="aval-title">
+  <div class="wrap">
+    <div class="head head--split">
+      <h2 id="aval-title" class="h2 reveal-lines">Quem comprou, recomenda.</h2>
+      <p class="lead">Mais de <span class="ph">[65]</span> clientes atendidos desde agosto.</p>
+    </div>
+    <ul class="proofs" role="list">
+      <li class="proof"><div class="proof__phone"><span class="ph-box">[Print real de conversa ou avaliação]</span></div><p class="proof__who"><span class="ph">[Nome, cidade]</span></p></li>
+      <li class="proof"><div class="proof__phone"><span class="ph-box">[Print real de conversa ou avaliação]</span></div><p class="proof__who"><span class="ph">[Nome, cidade]</span></p></li>
+      <li class="proof"><div class="proof__phone"><span class="ph-box">[Print real de conversa ou avaliação]</span></div><p class="proof__who"><span class="ph">[Nome, cidade]</span></p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- DÚVIDAS -->
+<section class="section" id="duvidas" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <h2 id="faq-title" class="h2 reveal-lines">Dúvidas frequentes</h2>
+    <div class="faq__list">
+      <details><summary>O grupo é gratuito?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Sim. Você entra, recebe as ofertas e sai quando quiser.</p></details>
+      <details><summary>Vou receber muita mensagem?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Só os administradores postam, <span class="ph">[x vezes por semana]</span>, e só ofertas.</p></details>
+      <details><summary>Os produtos são originais?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Sim, são Xiaomi originais e todas as vendas saem com nota fiscal.</p></details>
+      <details><summary>Tem garantia?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Sim, <span class="ph">[x meses]</span>. <span class="ph">[Explicar quem presta a assistência e onde]</span></p></details>
+      <details><summary>Como pago?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p><span class="ph">[Pix com desconto de x%, cartão em até 12x ou link de pagamento]</span></p></details>
+      <details><summary>Vocês entregam na minha cidade?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Enviamos para todo o Brasil. O prazo médio é de <span class="ph">[x dias úteis]</span>. <span class="ph">[Frete grátis acima de R$ x]</span></p></details>
+      <details><summary>Por que o preço é melhor que no marketplace?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Vendendo direto, sem a comissão das plataformas, conseguimos repassar condições melhores para quem está no grupo.</p></details>
+      <details><summary>Posso comprar sem entrar no grupo?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Pode. Toque em "Falar com um vendedor" e a gente te atende no privado.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final" id="entrar" aria-labelledby="final-title">
+  <div class="wrap final__inner">
+    <p class="eyebrow eyebrow--gold">Especial de Natal: pedidos até <span class="ph">[dd/12]</span> chegam antes do Natal</p>
+    <h2 id="final-title" class="final__title reveal-lines">A próxima oferta<br>sai no grupo.</h2>
+    <p class="final__lead">Quem está dentro vê primeiro. Quando o estoque acaba, acabou.</p>
+    <div class="final__ctas">
+      <a class="btn btn--go btn--xl magnet" href="#entrar" data-cta="grupo">
+        <svg aria-hidden="true"><use href="#i-wa"/></svg>Entrar no grupo VIP agora
+      </a>
+      <a id="vendedor" class="link-light" href="#entrar" data-cta="vendedor">Prefiro falar direto com um vendedor</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span class="logo logo--ink"><span class="logo__mark">JP<em>&amp;</em>C</span><span class="logo__sub">Importados</span></span>
+    <p>JP&amp;C LTDA · CNPJ <span class="num">66.780.787/0001-60</span><br>Rua Cláudio Zatta, 48, Centro, Cafelândia, PR</p>
+    <ul class="foot__links" role="list">
+      <li>WhatsApp <span class="ph">[número]</span></li>
+      <li>Instagram <span class="ph">[@]</span></li>
+      <li><a href="#">Política de privacidade</a></li>
+    </ul>
+    <p class="foot__legal">Xiaomi é marca registrada de seus respectivos donos.</p>
+  </div>
+</footer>
+
+<a class="dock-cta" href="#entrar" data-cta="grupo" aria-hidden="true" tabindex="-1">
+  <svg aria-hidden="true"><use href="#i-wa"/></svg>Entrar no grupo VIP grátis
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
